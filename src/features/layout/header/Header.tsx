@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from '../sidebar/Sidebar';
 import { MdDensityMedium } from 'react-icons/md';
-import NCCLogo from '../../../asset/picture/NCCLogo.png';
+import LOGO from '../../../asset/picture/timesheetLogo.png';
 import { useNavigate } from 'react-router-dom';
 import { ERoute } from '../../../router/routerLink';
 
@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
         <div
           className='flex items-center gap-3 translate-y-2 mx-5 cursor-pointer'
           onClick={() => navigate(ERoute.HOME)}>
-          <img className='h-9 rounded p-2 mt-1 bg-white' src={NCCLogo} alt="NCC Logo" />
+          <img className='h-9 rounded p-2 mt-1 bg-white' src={LOGO} alt="Logo" />
           <div className='text-xl'>TimeSheet</div>
         </div>
         <div

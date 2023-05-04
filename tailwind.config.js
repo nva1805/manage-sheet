@@ -18,7 +18,7 @@ module.exports = {
         'green-550': '#4caf50'
       },
       backgroundImage: {
-        'user-info': "url('http://training-timesheet.nccsoft.vn/user-img-background.7f354e93c30f9d51fc3a.jpg')"
+        'user-info': "url('https://i.pinimg.com/originals/c4/75/75/c47575e3d421a3a87981e07b24a4b51f.jpg')"
       },
       minWidth: {
         '1/2': '50%',

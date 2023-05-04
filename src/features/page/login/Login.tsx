@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import LoginImage from '../../../asset/picture/ncc-login.jpg';
+import LoginImage from '../../../asset/picture/marven-login.jpg';
 import { FaUserAlt } from 'react-icons/fa';
 import { RiLockPasswordFill } from 'react-icons/ri';
 import { useNavigate } from 'react-router-dom';
@@ -99,9 +99,9 @@ const Login = (): JSX.Element => {
         <div className='flex h-full'>
           <div className='hidden md:block relative overflow-hidden rounded-l-lg'>
             <span className='absolute top-0 left-0 right-0 bottom-0 lg:bg-black lg:bg-opacity-50'></span>
-            <img src={LoginImage} alt='ncc asia' className='object-cover w-96 h-full' />
+            <img src={LoginImage} alt='LoginImage' className='object-cover w-96 h-full' />
             <p className='hidden lg:block w-1/2 m-auto p-5 text-3xl leading-10 font-bold
-             text-center absolute top-10 text-white left-1/2 -translate-x-1/2'>NCC ASIA Timesheet</p>
+             text-center absolute top-10 text-white left-1/2 -translate-x-1/2'>PERSONAL Timesheet</p>
           </div>
           <div className='m-4 w-80 sm:w-96 '>
             <h6 className='text-center pt-2 mb-16 text-neutral-600 font-medium text-3xl'>Log in</h6>

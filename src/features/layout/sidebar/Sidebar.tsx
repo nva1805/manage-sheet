@@ -64,7 +64,7 @@ const Sidebar = (): JSX.Element => {
         </div>
         <div className='flex flex-col justify-start'>
           <span className='block w-full'><b>Nguyen Van Anh</b></span>
-          <span className='block w-full'>anh.nv@ncc.asia</span>
+          <span className='block w-full'>anh.nv@gmail.com</span>
         </div>
         <button
           className='absolute right-2 top-2 text-2xl active:scale-100 transition-all
