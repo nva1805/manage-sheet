@@ -1,0 +1,6 @@
+// notification
+export enum ENotifAction {
+  IS_SEND = 'IS_SEND',
+  KOMU_CHANNEL_ID = 'KOMU_CHANNEL_ID',
+  UPDATE_KOMU_NOTIFICATION = 'UPDATE_KOMU_NOTIFICATION'
+}

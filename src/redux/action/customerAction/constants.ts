@@ -1,0 +1,7 @@
+
+export enum ECustomerTypeAction {
+  CUSTOMER_LIST = 'CUSTOMER_LIST',
+  CUSTOMER_ITEM = 'CUSTOMER_ITEM',
+  LOADING = 'IS_LOADING',
+  ERROR = 'ERROR'
+}

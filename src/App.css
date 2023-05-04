@@ -1,0 +1,22 @@
+.h-container {
+  height: calc(100vh - 64px);
+  position: sticky;
+  top: 64px;
+}
+.h-sidebar {
+  height: calc(100vh -128px);
+  position: sticky;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.2s ease-out;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
